@@ -19,14 +19,13 @@ Projeto simples de sistema de login com CRUD (create, read, update, delete).
 
 ## Extras
 
-adicionado filtro
-valor do inventário
-total de carros cadastrados
-SweetAlert(lib)
-datalist com sugestões de modelos baseado na marca
-logo da marca carregado dinamicamente  thanks esse repo pelos svgs https://github.com/dangnelson/car-makes-icons
-
-toggle modo grid or lista
+- filtro
+- valor do inventário
+- total de carros cadastrados
+- SweetAlert(lib)
+- datalist com sugestões de modelos baseado na marca
+- logo da marca carregado dinamicamente svgs [from](https://- github.com/dangnelson/car-makes-icons) 
+- toggle modo grid or lista
 
 
 ## Getting started
