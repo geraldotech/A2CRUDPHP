@@ -20,29 +20,31 @@ Projeto simples de sistema de login com CRUD (create, read, update, delete).
 
 ## Getting started
 
-Como executar o produto localmente?
+Como executar o projeto localmente
 
-é necessário ter o Apache, PHP e MySQL instalados, no windows pode instalar tudo junto usando uma das ferramentas abaixo:
+é necessário ter instalado o Apache, PHP e MySQL, no windows pode instalar tudo junto usando uma das ferramentas abaixo:
 
 - [XAMPP](https://www.apachefriends.org/pt_br/index.html)
 - [EasyPHP](https://www.easyphp.org/)
 
+Para VPS Linux Ubuntu pode usar esse tutorial [atualizado da DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu)
+
 ## Cloning
 
-- `git clone myprojeto`
-- No caso do xampp descompactar a pasta em `C:\xampp\htdocs`
+- `https://github.com/geraldotech/A2CRUDPHP.git`
+- No caso do xampp descompactar na raiz do apache geralmente em `C:\xampp\htdocs`
 - iniciar o mysql e apache
--  acesso o http://localhost/phpmyadmin e no sql crie um database
+- acessar o `http://localhost/phpmyadmin` e criar um database
 
-- se estiver linux/windows o comando: `CREATE DATABASE nomedatabase;`
+- se estiver no linux/windows o comando: `CREATE DATABASE nomedatabase;` o tutorial da DigitalOcean que citei tem todas as instruções necessários em ambientes linux.
 
 ### Escolha uma opção:
 
 1. importar o banco de dados 
 
-ir no database criado > import > selecionar o arquivo
+ir no database criado > import > selecionar o arquivo> `revendacarros.sql`
 
-2. crie um banco de dados usando as queries:
+2. criar um banco de dados usando as queries:
 
 - create users table: bcrypt(PHP HASH)
 
@@ -77,8 +79,6 @@ CREATE TABLE cars (
 ## Faça seu login:
 
 - http://localhost/A2CRUDPHP/public/
-
-
 
 ## might help
 
