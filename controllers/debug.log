@@ -1,0 +1,715 @@
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => test
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => Chevrolet
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => Chevrolet2
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => Chevrolet
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 898
+    [edit_valor] => 56000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => Chevrolet
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 900
+    [edit_valor] => 56000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol
+    [edit_modelo] => 1.0
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 63
+    [edit_marca] => Fusca
+    [edit_modelo] => Volkswagen
+    [edit_cor] => white
+    [edit_ano] => 1999
+    [edit_valor] => 1500
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => branco
+    [edit_ano] => 2005
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 56.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 56.000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 56.000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 56000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 56.0000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 50.000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 5000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 50000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 62
+    [edit_marca] => BMW3
+    [edit_modelo] => modelo
+    [edit_cor] => black
+    [edit_ano] => 2010
+    [edit_valor] => 35000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 61
+    [edit_marca] => BMW
+    [edit_modelo] => Black Burnout
+    [edit_cor] => black
+    [edit_ano] => 2005
+    [edit_valor] => 2
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol 2024
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 65
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A0
+    [edit_cor] => preto
+    [edit_ano] => 2050
+    [edit_valor] => 65000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 53
+    [edit_marca] => Chevrolet
+    [edit_modelo] => Onix
+    [edit_cor] => prata
+    [edit_ano] => 2018
+    [edit_valor] => 40000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol 2024
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol 2024
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol 2024
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol 2024
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol
+    [edit_modelo] => 1.1
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol
+    [edit_modelo] => 1.2
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 73
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A4
+    [edit_cor] => Vermelho
+    [edit_ano] => 2007
+    [edit_valor] => 6000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 73
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A4
+    [edit_cor] => Vermelho
+    [edit_ano] => 2008
+    [edit_valor] => 6000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 74
+    [edit_marca] => BMW
+    [edit_modelo] => BMW 1 Series
+    [edit_cor] => Branco
+    [edit_ano] => 2010
+    [edit_valor] => 0.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Gol
+    [edit_modelo] => 1.3
+    [edit_cor] => cinza
+    [edit_ano] => 2002
+    [edit_valor] => 5000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 1
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2021
+    [edit_valor] => 108000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 3
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A4
+    [edit_cor] => Branco
+    [edit_ano] => 2020
+    [edit_valor] => 4345.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 5
+    [edit_marca] => Chevrolet
+    [edit_modelo] => Chevrolet Malibu
+    [edit_cor] => Branco
+    [edit_ano] => 2020
+    [edit_valor] => 100000
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 8540.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 6
+    [edit_marca] => BMW
+    [edit_modelo] => BMW 2 Series
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 0
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 13
+    [edit_marca] => Ferrari
+    [edit_modelo] => whatever
+    [edit_cor] => Branco
+    [edit_ano] => 22
+    [edit_valor] => 0
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 8000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 5
+    [edit_marca] => Chevrolet
+    [edit_modelo] => Chevrolet Malibu
+    [edit_cor] => Branco
+    [edit_ano] => 2020
+    [edit_valor] => 1000
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 17
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 56.000
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 17
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 56.00000
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 17
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 5600.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 17
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 5600
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 17
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 0
+    [edit_valor] => 5600
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6450.000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6450
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 13
+    [edit_marca] => Ferrari
+    [edit_modelo] => whatever
+    [edit_cor] => Branco
+    [edit_ano] => 22
+    [edit_valor] => 0.23
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 13
+    [edit_marca] => Ferrari
+    [edit_modelo] => whatever
+    [edit_cor] => Branco
+    [edit_ano] => 22
+    [edit_valor] => 1
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A3
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6450.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A10
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6450.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 19
+    [edit_marca] => Burnout2
+    [edit_modelo] => Master
+    [edit_cor] => Black
+    [edit_ano] => 2015
+    [edit_valor] => 5000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 19
+    [edit_marca] => Burnout2
+    [edit_modelo] => Master
+    [edit_cor] => Black
+    [edit_ano] => 2015
+    [edit_valor] => 2000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 18
+    [edit_marca] => BMW
+    [edit_modelo] => BMW 2 Series
+    [edit_cor] => Prata/Cinza
+    [edit_ano] => 2022
+    [edit_valor] => 5000.00
+    [edit_status] => novo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 22
+    [edit_marca] => Volkswagen
+    [edit_modelo] => Bolinha
+    [edit_cor] => Preto
+    [edit_ano] => 2010
+    [edit_valor] => 30000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 22
+    [edit_marca] => Volkswagen
+    [edit_modelo] => Bolinha
+    [edit_cor] => Preto
+    [edit_ano] => 2010
+    [edit_valor] => 3000.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 4
+    [edit_marca] => Audi
+    [edit_modelo] => AUDI A11
+    [edit_cor] => Branco
+    [edit_ano] => 2015
+    [edit_valor] => 6450.00
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)
+Array
+(
+    [edit_car_id] => 7
+    [edit_marca] => Fiat
+    [edit_modelo] => Uno
+    [edit_cor] => Branco
+    [edit_ano] => 2002
+    [edit_valor] => 5000
+    [edit_status] => seminovo
+    [action] => ajaxUpdate
+)

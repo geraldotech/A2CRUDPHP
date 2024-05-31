@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* variables */
+:root {
+  --vargridopt: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.required:after {
+  content: '*';
+  color: red;
+}
+
+.marcaicon {
+  width: 100%;
+  max-width: 40px;
+  flex: 0 1 100px;
+}
+
+.form-group {
+  padding: 0.2rem;
+}
+
+.swal2-container {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+div:where(.swal2-container).swal2-backdrop-show,
+div:where(.swal2-container).swal2-noanimation {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100% !important;
+}
+
+/* CSS for responsiveness */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Make the table responsive */
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+@media (min-width: 576px) {
+  table {
+    display: table;
+  }
+}
+
+.car {
+  display: flex;
+  border: 2px solid #dee2e6;
+  padding: 10px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-actions {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-image {
+  align-self: flex-end;
+  width: 40px;
+}
+
+.car-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.cars-grid:hover :not(.changelayout) .car:not(:hover)  {
+  opacity: 0.6;
+  scale: 0.98;
+}
+
+/* Optional: Style for edit and delete buttons */
+.edit-car,
+.delete-car {
+  cursor: pointer;
+}
+
+/* grid cards */
+.wrapper {
+  overflow-x: auto;
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: var(--vargridopt);
+  grid-gap: 20px;
+}
+
+/* truque usando has mais em
+https://github.com/geraldotech/DevMap/blob/main/CSS/pages/has/getStart.md
+
+*/
+html:has([type='checkbox']:checked) {
+  --vargridopt: repeat(minmax(250px, 1fr));
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+label {
+  cursor: pointer;
+}
+
+.gridbutton {
+  position: relative;
+}
+/* apenas para desktop */
+.changelayout {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  @media (max-width: 500px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+#notfound {
+  display: none;
+}
