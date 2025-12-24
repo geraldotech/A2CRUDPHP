@@ -1,104 +1,81 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
+-- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
 --
--- Host: 127.0.0.1
--- Tempo de geração: 29/05/2024 às 20:58
--- Versão do servidor: 10.4.32-MariaDB
--- Versão do PHP: 8.0.30
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
+-- Host: 127.0.0.1    Database: a2crudphp-main
+-- ------------------------------------------------------
+-- Server version	8.0.43
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Banco de dados: `revendacarros`
+-- Table structure for table `cars`
 --
 
--- --------------------------------------------------------
-
---
--- Estrutura para tabela `cars`
---
-
+DROP TABLE IF EXISTS `cars`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `cars` (
-  `id` int(11) NOT NULL,
-  `marca` varchar(255) DEFAULT NULL,
-  `modelo` varchar(255) DEFAULT NULL,
-  `cor` varchar(50) DEFAULT NULL,
-  `ano` int(11) DEFAULT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  `marca` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `modelo` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `cor` varchar(50) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `ano` int DEFAULT NULL,
   `valor` decimal(10,2) DEFAULT NULL,
-  `status` enum('novo','seminovo') DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `status` enum('novo','seminovo') COLLATE utf8mb4_general_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Despejando dados para a tabela `cars`
+-- Dumping data for table `cars`
 --
 
-INSERT INTO `cars` (`id`, `marca`, `modelo`, `cor`, `ano`, `valor`, `status`) VALUES
-(3, 'Gol', '1.1', 'cinza', 2002, 5000.00, 'seminovo'),
-(53, 'Chevrolet', 'Onix', 'prata', 2018, 45000.00, 'seminovo'),
-(61, 'BMW', 'Black Burnout', 'black', 2005, 2.00, 'novo'),
-(63, 'Fusca', 'Volkswagen', 'white', 1999, 1500.00, 'seminovo');
-
--- --------------------------------------------------------
+LOCK TABLES `cars` WRITE;
+/*!40000 ALTER TABLE `cars` DISABLE KEYS */;
+INSERT INTO `cars` VALUES (3,'Gol','1.1','cinza',2002,5000.00,'seminovo'),(53,'Chevrolet','Onix','prata',2018,45000.00,'seminovo'),(61,'BMW','Black Burnout','black',2005,2.00,'novo'),(63,'Fusca','Volkswagen','white',1999,1500.00,'seminovo'),(64,'BMW','BMW 1 Series','Branco',2018,12.00,'novo');
+/*!40000 ALTER TABLE `cars` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
--- Estrutura para tabela `users`
+-- Table structure for table `users`
 --
 
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `id` int NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Despejando dados para a tabela `users`
+-- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(2, 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997');
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,'admin','$2y$12$HeYaWglxXqv9z4uCxkV/DOZtihwaNYlKr5Tq3Rk7XWdYfrxiBwzA6');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
---
--- Índices para tabelas despejadas
---
-
---
--- Índices de tabela `cars`
---
-ALTER TABLE `cars`
-  ADD PRIMARY KEY (`id`);
-
---
--- Índices de tabela `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT para tabelas despejadas
---
-
---
--- AUTO_INCREMENT de tabela `cars`
---
-ALTER TABLE `cars`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
-
---
--- AUTO_INCREMENT de tabela `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-COMMIT;
-
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-12-24 18:21:31
