@@ -86,6 +86,11 @@ CREATE TABLE cars (
 
 - http://localhost/A2CRUDPHP/public/register.php
 
+## ou use o admin:
+
+login: admin
+senha: admin@123
+
 ## Faça seu login:
 
 - http://localhost/A2CRUDPHP/public/
