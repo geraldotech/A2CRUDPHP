@@ -12,11 +12,6 @@
 <img width="1280" height="863" alt="Screenshot 2025-12-24 182013" src="https://github.com/user-attachments/assets/93042a26-d6c0-4e95-8699-3c683a44b38c" />
 
 
-
-## Deploy
-
-- [Deploy](http://projeto.geraldox.com/public/)
-
 ## About
 
 Projeto simples de sistema de login com CRUD (create, read, update, delete).
